@@ -4,7 +4,7 @@
 <nav>
 	<ul>
 		<li><Link to="/">Inicio</Link></li>
-		<li><Link to="/articulos">Articulos</Link></li>
+		<li><Link to="/articulos">Coches</Link></li>
 		<li><Link to="/clientes">Clientes</Link></li>
 	</ul>
 </nav>
