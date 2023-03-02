@@ -1,7 +1,7 @@
 <script>
     import { onMount } from "svelte";
     export let documento = {};
-    export let tipo = "🥖👌";
+    export let tipo = "👇🏻";
     import { getContext } from "svelte";
     import { data } from "./store";
     let URL = getContext("URL");
@@ -56,4 +56,15 @@
     onMount(setup);
 </script>
 
-<input type="button" value={tipo} on:click={handler} />
+<input class="botonArticulo" type="button" value={tipo} on:click={handler} />
+<style>
+    .botonArticulo {
+  background: #23c186;
+  width: 100px;
+}
+.botonArticulo:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+</style>
