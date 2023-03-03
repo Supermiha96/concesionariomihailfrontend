@@ -2,7 +2,7 @@
     export let busqueda = "";
 </script>
 
-<h2>Buscar articulo</h2>
+<h2>Buscar :</h2>
 <input type="search" bind:value={busqueda} />
 
 <style>
