@@ -26,6 +26,7 @@
 <Buscar bind:busqueda={patron} />
 <hr />
 <div class="insertar">
+    <h3>Buscar un cliente</h3>
 <Cliente bind:cliente = {clienteInsertar}>
 <Boton documento = {clienteInsertar}/>
 </Cliente>
