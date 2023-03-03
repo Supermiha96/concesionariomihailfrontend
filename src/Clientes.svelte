@@ -40,7 +40,7 @@
           <div class="box">
             <div class="content">
                 <h2>{i+1}</h2>
-              <h3>Coche</h3>
+              <h3>Cliente</h3>
               <Cliente bind:cliente = {cliente} >
                 <br />
               <Boton tipo = "🔄" documento = {cliente}/>
