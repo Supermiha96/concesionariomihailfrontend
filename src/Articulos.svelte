@@ -27,7 +27,7 @@
 <Buscar bind:busqueda={patron} />
 <hr />
 <div class="insertar">
-    <h3>Insertar cooche</h3>
+    <h3>Insertar coche</h3>
 <Articulo bind:articulo = {articuloInsertar}>
 <Boton documento = {articuloInsertar}/>
 </Articulo>
