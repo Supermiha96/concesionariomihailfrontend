@@ -23,7 +23,7 @@
     );
 </script>
 <div class="body">
-<h1>Articulos</h1>
+<h1>Coches</h1>
 <Buscar bind:busqueda={patron} />
 <hr />
 <div class="insertar">
